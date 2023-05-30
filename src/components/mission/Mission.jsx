@@ -2,6 +2,7 @@ import React from "react";
 import "./Mission.css";
 import mission2 from "../../assets/images/mission2.jpg";
 import Question from "../../assets/images/Question.png";
+import Events from "../events/Events";
 // import FontAwesomeIcon from "@fort";
 function Mission() {
   return (
@@ -46,6 +47,34 @@ function Mission() {
             Consequuntur, eligendi.
           </p>
         </div>
+      </div>
+
+      <h2 className="events__header">Our Events</h2>
+      <div className="event">
+        <Events
+          image={
+            "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde itaque officia doloribus odit, tempore tenetur. Labore id illum dolor"
+        />
+        <Events
+          image={
+            "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde itaque officia doloribus odit, tempore tenetur. Labore id illum dolor"
+        />
+        <Events
+          image={
+            "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde itaque officia doloribus odit, tempore tenetur. Labore id illum dolor"
+        />
+        <Events
+          image={
+            "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde itaque officia doloribus odit, tempore tenetur. Labore id illum dolor"
+        />
       </div>
     </div>
   );
