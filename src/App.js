@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar/NavBar";
 import HomePage from "./components/Homepage/HomePage";
 import About from "./components/About/About";
 import Mission from "./components/mission/Mission";
+import Events from "./components/events/Events";
 
 function App() {
   return (
