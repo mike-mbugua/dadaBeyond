@@ -43,3 +43,13 @@
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
 }
+.event {
+  display: flex;
+  justify-content: space-evenly;
+}
+.events__header {
+  font-size: 1.7rem;
+  margin-left: 20px;
+  margin-top: 5%;
+  text-align: center;
+}
