@@ -1,0 +1,69 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  margin-top: 10px;
+  color: white;
+  width: 100%;
+  background-image: url("./../../assets/images/pexels-karolina-grabowska-4814061.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.home__content,
+.home__text,
+span {
+  background: transparent;
+}
+.home__content {
+  display: flex;
+  font-size: 3.5rem;
+  width: 100%;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.home__span1 {
+  color: var(--heading-color);
+  font-weight: 400;
+}
+.home__image {
+  background: transparent;
+  width: 50%;
+  height: 300px;
+  height: 100%;
+}
+img {
+  background: transparent;
+  border-radius: 50%;
+}
+.home__image img {
+  background: transparent;
+  height: 300px;
+}
+.image {
+  background: transparent;
+  text-align: center;
+}
+.founder__info {
+  background: transparent;
+  font-size: 1.5rem;
+}
+.home__logo {
+  color: var(--heading-color);
+  font-family: "Dancing Script", cursive;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+.founder__name {
+  font-size: large;
+  font-weight: 300;
+}
+.founder {
+  font-weight: 200;
+}
+.cole {
+  font-weight: 100;
+  font-size: medium;
+}
